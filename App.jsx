@@ -1,5 +1,11 @@
 import AppNavigator from "./navigation/AppNavigator";
 
-export default function App() {
-  return <AppNavigator />;
+function App() {
+  return (
+    <div className="app">
+      <AppNavigator />
+    </div>
+  );
 }
+
+export default App;
