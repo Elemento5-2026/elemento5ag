@@ -1,6 +1,3 @@
-import React from "react";
-import { View } from "react-native";
-
 import Layout from "../../components/Layout";
 
 import DashboardIndicators from "./components/DashboardIndicators";
@@ -8,19 +5,15 @@ import DashboardAlerts from "./components/DashboardAlerts";
 import DashboardRecent from "./components/DashboardRecent";
 
 export default function Dashboard() {
+  return (
+    <Layout>
 
-    return(
+      <DashboardIndicators />
 
-        <Layout>
+      <DashboardAlerts />
 
-            <DashboardIndicators />
+      <DashboardRecent />
 
-            <DashboardAlerts />
-
-            <DashboardRecent />
-
-        </Layout>
-
-    );
-
+    </Layout>
+  );
 }
