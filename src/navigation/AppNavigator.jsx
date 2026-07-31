@@ -1,15 +1,5 @@
-import { Text, View } from "react-native";
+import Login from "../pages/Login/Login";
 
 export default function AppNavigator() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Elemento 5 - Gestión de Incidentes</Text>
-    </View>
-  );
+  return <Login />;
 }
